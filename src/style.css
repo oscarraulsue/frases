@@ -1,0 +1,89 @@
+body {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+
+}
+
+
+header {
+	/*background: url( "../images/img-header.jpg" ) no-repeat center center fixed;*/
+	background: url( "https://farm1.staticflickr.com/624/23506814065_5fc0943bdf_b.jpg" ) no-repeat center center fixed;
+	background-size: cover;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin-bottom: 5%;
+}
+
+header h1 {
+	display: inline;
+	color: #FFEBA7;
+}
+
+header small {
+	color: #FFD339;
+}
+
+.quote-box {
+	margin: 0 auto;
+	width: 65%;
+    
+  	text-align: center;
+    background-color:#ffffff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding: 60px;	
+
+	-moz-box-shadow: 0px 0px 10px #000000;
+	-webkit-box-shadow: 0px 0px 10px #000000;
+	box-shadow: 0px 0px 10px #000000;
+	
+
+}
+
+
+.quote {
+	font-size: 1.5em;
+}
+
+.author {
+ 	
+	font-size:1.2em;
+}
+.buttons {
+
+    margin: auto;
+    display: block;
+}
+    .button {
+      height: 38px;
+      border: none;
+      border-radius: 3px;
+      color: #fff;
+      background-color: #333;
+      outline: none;
+      font-size: 0.85em;
+      padding: 8px 18px 6px 18px;
+
+      opacity: 1;
+      cursor: pointer;}
+ .button:hover {
+        opacity: 0.9;
+      }
+ #tweet-quote,
+ #tumblr-quote {
+        float: left;
+        padding: 0px;
+        padding-top: 8px;
+        text-align: center;
+        font-size: 1.2em;
+        margin-right: 5px;
+        height: 30px;
+        width: 40px;
+      }
+#new-quote {
+        float: right;
+      }
+
+ 
